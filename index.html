@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calorie Comaprison</title>
+    <link href="style.css" rel="stylesheet">
+
+    <!-- BOOTSTRAP 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="script.js"></script>
+
+    <title>Fast Food Calories</title>
+</head>
+
+<body>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Do you know how fast food is affecting you?</h1>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <h2 class="text-center">Which fast food chain has the most calorie in average?</h2>
+                    <p class="text-left">
+                        Despite what marketing might suggest, not all fast food is created equal.
+                        This chart compares the average calories per item across several major chains,
+                        revealing that Sonic and Arby’s serve some of the heaviest menu options on average—nearing
+                        500 calories per item. In contrast,
+                        Taco Bell comes in with the lowest average, but still over 300 calories per item. While a
+                        single meal might not seem extreme,
+                        these differences can quietly add up in a fast-paced lifestyle.</p>
+                </div>
+
+                <div class="col-md-6">
+                    <div>
+                        <canvas id="myChart" width="1200" Height="600"></canvas>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row mt-5">
+
+                <div class="col-md-6">
+                    <div>
+                        <canvas id="myChart1" width="1200" Height="600"></canvas>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <h2 class="text-center">Do you know how much you consume from a cheese burger or a chicken sandwich?
+                    </h2>
+                    <p class="text-left">
+                        When choosing a quick meal like a cheeseburger or chicken sandwich,
+                        we often overlook just how many calories we're actually consuming.
+                        This chart shows the average calories per item at some of the most popular fast food chains.
+                        Surprisingly, Sonic leads the pack with nearly 900 calories per item on average,
+                        followed closely by KFC and Arby’s. On the lower end, McDonald's and Taco Bell offer items
+                        with fewer calories
+                        , averaging around 300–400. These numbers highlight how a simple choice between
+                        chains can make a big difference in your daily calorie intake.</p>
+                </div>
+            </div>
+
+
+            <div class="row mt-5">
+                <h2 class="text-center">Do you know daily intake vaslues from one single Chicken Sandwich?
+                </h2>
+                <p class="text-left">
+                    A single fast food chicken sandwich can quietly take up a large portion of your recommended daily
+                    intake.
+                    On average, it delivers around 33% of your total fat, 23% of your saturated fat, 20% of your
+                    cholesterol,
+                    and a surprising 64% of your sodium limit—all from just one item. While it might seem like a quick
+                    and
+                    harmless meal, these nutrients add up fast and leave less room for healthier options throughout the
+                    day.</p>
+            </div>
+            <div class="row mt-2">
+                <div class="col-md-3">
+                    <h5>Your Daily Total Fat Intake</h5>
+                    <div>
+                        <canvas id="myChart3" width="400" Height="400"></canvas>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h5>Your Daily Saturated Fat Intake</h5>
+                    <div>
+                        <canvas id="myChart4" width="400" Height="400"></canvas>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h5>Your Daily Cholesterol Intake</h5>
+                    <div>
+                        <canvas id="myChart5" width="400" Height="400"></canvas>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h5>Your Daily Sodium Intake</h5>
+                    <div>
+                        <canvas id="myChart6" width="400" Height="400"></canvas>
+                    </div>
+                </div>
+            </div>
+
+
+</body>
+
+
+</html>
